@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1851BC1E258132DF00C13EBD /* SampleCocoaPods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851BC1D258132DF00C13EBD /* SampleCocoaPods.swift */; };
 		50A6B7BF25812D9200C851E0 /* SampleCocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A6B7B525812D9200C851E0 /* SampleCocoaPods.framework */; };
 		50A6B7C425812D9200C851E0 /* SampleCocoaPodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A6B7C325812D9200C851E0 /* SampleCocoaPodsTests.swift */; };
 		50A6B7C625812D9200C851E0 /* SampleCocoaPods.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A6B7B825812D9200C851E0 /* SampleCocoaPods.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1851BC1D258132DF00C13EBD /* SampleCocoaPods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCocoaPods.swift; sourceTree = "<group>"; };
 		50A6B7B525812D9200C851E0 /* SampleCocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleCocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A6B7B825812D9200C851E0 /* SampleCocoaPods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleCocoaPods.h; sourceTree = "<group>"; };
 		50A6B7B925812D9200C851E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				50A6B7B825812D9200C851E0 /* SampleCocoaPods.h */,
 				50A6B7B925812D9200C851E0 /* Info.plist */,
+				1851BC1D258132DF00C13EBD /* SampleCocoaPods.swift */,
 			);
 			path = SampleCocoaPods;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1851BC1E258132DF00C13EBD /* SampleCocoaPods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +492,7 @@
 		50A6B7CD25812D9200C851E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SampleCocoaPodsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -505,6 +510,7 @@
 		50A6B7CE25812D9200C851E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SampleCocoaPodsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
